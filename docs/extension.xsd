@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="https://github.com/jjkant/xsd/extension.xsd"
-    xmlns:vf="https://github.com/jjkant/xsd/extension.xsd"
+    targetNamespace="https://jjkant.github.io/xsd/extension.xsd"
+    xmlns:vf="https://jjkant.github.io/xsd/extension.xsd"
     elementFormDefault="qualified"
     version="1.2">
 
     <xs:annotation>
         <xs:documentation>
-            Repo: https://github.com/jjkant/docs/extension.xsd
+            Repo: https://jjkant.github.io/xsd/extension.xsd
         </xs:documentation>
     </xs:annotation>
 
