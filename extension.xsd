@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://github.com/jjkant/xsd/extension.xsd"
+    xmlns:vf="https://github.com/jjkant/xsd/extension.xsd"
+    elementFormDefault="qualified"
+    version="1.2">
+
+    <xs:annotation>
+        <xs:documentation>
+            Repo: https://github.com/jjkant/xsd/extension.xsd
+        </xs:documentation>
+    </xs:annotation>
+
+    <xs:element name="Verifactu">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="PreviousInvoiceHash"    type="xs:string" minOccurs="0"/>
+                <xs:element name="CurrentInvoiceHash"     type="xs:string" minOccurs="0"/>
+                <xs:element name="RawVerifactuString"     type="xs:string" minOccurs="0"/>
+                <xs:element name="QrCodeUrl"              type="xs:string" minOccurs="0"/>
+                <xs:element name="CSV"                    type="xs:string" minOccurs="0"/>
+                <xs:element name="SoftwareFingerprint"    type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
